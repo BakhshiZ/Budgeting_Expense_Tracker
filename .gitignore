@@ -11,3 +11,5 @@ server/.env
 # VS Code specific
 .vscode/
 .idea/
+
+app_plan.txt

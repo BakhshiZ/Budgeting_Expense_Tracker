@@ -1,0 +1,2 @@
+# Why we use contexts
+To improve performance as it calls the useFindWH hook once. If we did not use a context, every page would call its own instance of the hook and we would have many copies of the hook. Instead, the context calls the hook once and then shares it across every page. This is done by wrapping it around the <App /> tag in the index.js file.
